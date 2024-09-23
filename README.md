@@ -203,9 +203,9 @@ Lcd_HandleTypeDef lcd;
 void lcd_display()
 {
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"JAGADESH J");
+	Lcd_string(&lcd,"SANJIT P");
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223110015\n");
+	Lcd_string(&lcd,"212223230190\n");
 	for(int x=0;x<100;x++)
 	{
 		Lcd_cursor(&lcd,2,1);
